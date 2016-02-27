@@ -36,6 +36,11 @@ class SystemController extends AppController {
             }
             $this->Flash->error('Your username or password is incorrect.');
         }
+        
+        /**
+         * Set login layout for this view
+         */
+        $this->viewBuilder()->layout('login');
     }
 
     /**
