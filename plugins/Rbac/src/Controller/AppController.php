@@ -1,6 +1,6 @@
 <?php
 
-namespace RBAC\Controller;
+namespace Rbac\Controller;
 
 use App\Controller\AppController as BaseController;
 

@@ -4,9 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98e7759a9c781b8c06f50cfdcf4bcce8",
-    "content-hash": "601fb31c8d0d4504a213a0c837654da4",
+    "hash": "726d835788b66ac1f6a51557dcabd1ac",
+    "content-hash": "83caca6334c4a78d4e6fd81e2c735d87",
     "packages": [
+        {
+            "name": "aoliverio/builder",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aoliverio/builder.git",
+                "reference": "527ba5e44561a5fb325aca15afa921e2fe4a5806"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aoliverio/builder/zipball/527ba5e44561a5fb325aca15afa921e2fe4a5806",
+                "reference": "527ba5e44561a5fb325aca15afa921e2fe4a5806",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "php": ">=5.4.16"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Builder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Oliverio",
+                    "homepage": "http://www.aoliverio.com/",
+                    "role": "Author"
+                }
+            ],
+            "description": "CakePHP 3.x plugin to generate beautiful and functional masks in Bootstrap 3 style",
+            "time": "2016-02-23 11:33:45"
+        },
         {
             "name": "aura/installer-default",
             "version": "1.0.0",

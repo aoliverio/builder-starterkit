@@ -211,4 +211,5 @@ Type::build('datetime')
     ->useImmutable()
     ->useLocaleParser();
 
-Plugin::load('RBAC', ['bootstrap' => false, 'routes' => true]);
+Plugin::load('Builder', ['autoload' => true, 'routes' => true]);
+Plugin::load('Rbac', ['autoload' => true, 'routes' => true]);

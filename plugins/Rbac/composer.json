@@ -1,6 +1,6 @@
 {
-    "name": "your-name-here/RBAC",
-    "description": "RBAC plugin for CakePHP",
+    "name": "your-name-here/Rbac",
+    "description": "Rbac plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.4.16",
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RBAC\\": "src"
+            "Rbac\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RBAC\\Test\\": "tests",
+            "Rbac\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }

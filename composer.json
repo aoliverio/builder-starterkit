@@ -10,7 +10,7 @@
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
-        "aoliverio/builder": "1.*"
+        "aoliverio/builder": "^1.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -24,14 +24,16 @@
     "autoload": {
         "psr-4": {
             "App\\": "src",
-            "RBAC\\": "./plugins/RBAC/src"
+            "RBAC\\": "./plugins/RBAC/src",
+            "Rbac\\": "./plugins/Rbac/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "App\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests",
-            "RBAC\\Test\\": "./plugins/RBAC/tests"
+            "RBAC\\Test\\": "./plugins/RBAC/tests",
+            "Rbac\\Test\\": "./plugins/Rbac/tests"
         }
     },
     "scripts": {

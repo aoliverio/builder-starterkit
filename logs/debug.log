@@ -164,3 +164,26 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-02-27 14:07:14 Notice: Notice (8): Use of undefined constant APP_USER_LABEL - assumed 'APP_USER_LABEL' in [/Applications/MAMP/htdocs/github/builder-starterkit/src/Template/Element/navbar.ctp, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 147
+include - APP/Template/Element/navbar.ctp, line 34
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1329
+Cake\View\View::element() - CORE/src/View/View.php, line 493
+include - APP/Template/Layout/default.ctp, line 42
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 992
+Cake\View\View::_render() - CORE/src/View/View.php, line 952
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 633
+Cake\View\View::render() - CORE/src/View/View.php, line 592
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+App\Controller\PagesController::display() - APP/Controller/PagesController.php, line 57
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
