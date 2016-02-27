@@ -60,6 +60,7 @@ class AppController extends Controller {
         $this->loadComponent('Auth', [
             'authenticate' => [
                 'Form' => [
+                    'userModel' => 'Rbac.RbacUser',
                     'fields' => [
                         'username' => 'email',
                         'password' => 'password'
@@ -75,6 +76,17 @@ class AppController extends Controller {
         // Allow the display action so our pages controller
         // continues to work.
         $this->Auth->allow(['display']);
+    }
+
+    /**
+     * Implements RBAC system 
+     * 
+     * @param type $user
+     * @return boolean
+     */
+    public function isAuthorized($user) {
+        $action = $this->request->params['action'];
+        return true;
     }
 
     /**
