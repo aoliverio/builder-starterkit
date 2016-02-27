@@ -1,0 +1,427 @@
+2016-02-27 13:38:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages/home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/home.ctp',
+)
+Request URL: /cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->_getViewFileName('home')
+#1 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#2 /Applications/MAMP/htdocs/cake3/builder-starterkit/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#5 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-02-27 13:39:00 Error: [Cake\View\Exception\MissingElementException] Element/navbar.ctp
+Request URL: /cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/src/Template/Layout/default.ctp(42): Cake\View\View->element('navbar')
+#1 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/View/View.php(992): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/View/View.php(952): Cake\View\View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/View/View.php(633): Cake\View\View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/View/View.php(592): Cake\View\View->renderLayout('', 'default')
+#5 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#6 /Applications/MAMP/htdocs/cake3/builder-starterkit/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#7 [internal function]: App\Controller\PagesController->display('home')
+#8 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /Applications/MAMP/htdocs/cake3/builder-starterkit/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#11 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-02-27 13:39:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:39:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/default.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:39:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:39:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/jquery-ui.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:39:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/default.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:39:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/jquery-ui.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/default.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/jquery-ui.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:41:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/js/default.js
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:45:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:45:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:45:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/custom.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:46:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:49:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:51:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:51:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class System could not be found.
+Exception Attributes: array (
+  'class' => 'System',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/system/system/logout
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:53:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-27 13:54:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake3/builder-starterkit/css/jquery-ui.min.css
+Referer URL: http://localhost/cake3/builder-starterkit/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cake3/builder-starterkit/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
