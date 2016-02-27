@@ -53,10 +53,28 @@ class AppController extends Controller {
          */
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        
+
         /**
          * Use Auth component for User Authentication
          */
+        $this->loadComponent('Auth', [
+            'authenticate' => [
+                'Form' => [
+                    'fields' => [
+                        'username' => 'email',
+                        'password' => 'password'
+                    ]
+                ]
+            ],
+            'loginAction' => [
+                'controller' => 'System',
+                'action' => 'login'
+            ]
+        ]);
+
+        // Allow the display action so our pages controller
+        // continues to work.
+        $this->Auth->allow(['display']);
     }
 
     /**
