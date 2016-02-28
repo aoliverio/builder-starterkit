@@ -42,5 +42,5 @@ label {
 /* No Sort for datatables column */
 .no-sorting::after { display: none!important; }
 .no-sorting { pointer-events: none!important; cursor: default!important; }
-th .check{width:24px; }
-td .check{width:24px; }
+th .check{max-width: 24px; }
+td .check{max-width: 24px; }

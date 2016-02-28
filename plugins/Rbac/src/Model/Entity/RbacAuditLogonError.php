@@ -1,26 +1,20 @@
 <?php
-
 namespace Rbac\Model\Entity;
 
 use Cake\ORM\Entity;
-use Cake\Auth\DefaultPasswordHasher;
 
 /**
- * RbacUser Entity.
+ * RbacAuditLogonError Entity.
  *
  * @property int $id
- * @property string $name
- * @property string $email
+ * @property string $ip_address
+ * @property string $request
  * @property string $username
  * @property string $password
- * @property bool $is_blocked
  * @property \Cake\I18n\Time $created
- * @property \Cake\I18n\Time $modified
- * @property \Rbac\Model\Entity\RbacAudit[] $rbac_audit
- * @property \Rbac\Model\Entity\RbacSession[] $rbac_session
- * @property \Rbac\Model\Entity\RbacUserRole[] $rbac_user_role
  */
-class RbacUser extends Entity {
+class RbacAuditLogonError extends Entity
+{
 
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -44,10 +38,4 @@ class RbacUser extends Entity {
     protected $_hidden = [
         'password'
     ];
-
-    protected function _setPassword($value) {
-        $hasher = new DefaultPasswordHasher();
-        return $hasher->hash($value);
-    }
-
 }

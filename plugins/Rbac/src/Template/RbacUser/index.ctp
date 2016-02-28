@@ -13,13 +13,12 @@
             <thead>
                 <tr>
                     <th class="check no-sorting">
-                        <input id="checkall" class="" type="checkbox" name="" value="" />
+                        <input id="checkall" class="check" type="checkbox" name="" value="" />
                     </th>
                     <th><?= __('Id') ?></th>
                     <th><?= __('Name') ?></th>
                     <th><?= __('Email') ?></th>
                     <th><?= __('Username') ?></th>
-                    <th><?= __('Password') ?></th>
                     <th><?= __('Is Blocked') ?></th>
                     <th><?= __('Created') ?></th>
                     <th class="actions no-sorting"><?= __('Actions') ?></th>
@@ -33,7 +32,6 @@
                         <td><?= h($rbacUser->name) ?></td>
                         <td><?= h($rbacUser->email) ?></td>
                         <td><?= h($rbacUser->username) ?></td>
-                        <td><?= h($rbacUser->password) ?></td>
                         <td><?= h($rbacUser->is_blocked) ?></td>
                         <td><?= h($rbacUser->created) ?></td>
                         <td class="actions text-right">
