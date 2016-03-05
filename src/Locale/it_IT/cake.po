@@ -1,0 +1,292 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-03-05 16:02+0100\n"
+"PO-Revision-Date: 2016-03-05 16:18+0100\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+
+#: Template/Error/error400.ctp:36 Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "Errore"
+
+#: Template/Error/error400.ctp:38
+msgid "The requested address %s was not found on this server."
+msgstr "L’indirizzo richiesto %s non è stato trovato su questo server."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "Errore Interno"
+
+#: Controller/Component/AuthComponent.php:454
+msgid "You are not authorized to access that location."
+msgstr "Non sei autorizzato ad accedere a questa risorsa."
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr "CSRF token cookie mancante"
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr "CSRF token non corrispondente."
+
+#: Error/ExceptionRenderer.php:249
+msgid "Not Found"
+msgstr "Non Trovato"
+
+#: Error/ExceptionRenderer.php:251
+msgid "An Internal Error Has Occurred."
+msgstr "Si è verificato un errore interno."
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "{0} da ora"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "{0} fa"
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} after"
+msgstr "{0} dopo"
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} before"
+msgstr "{0} prima"
+
+#: I18n/RelativeTimeFormatter.php:113
+msgid "just now"
+msgstr "proprio ora"
+
+#: I18n/RelativeTimeFormatter.php:150
+msgid "about a second ago"
+msgstr "circa un secondo fa"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a minute ago"
+msgstr "circa un minuto fa"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about an hour ago"
+msgstr "circa un ora fa"
+
+#: I18n/RelativeTimeFormatter.php:153;326
+msgid "about a day ago"
+msgstr "circa un giorno fa"
+
+#: I18n/RelativeTimeFormatter.php:154;327
+msgid "about a week ago"
+msgstr "circa una settimana fa"
+
+#: I18n/RelativeTimeFormatter.php:155;329
+msgid "about a year ago"
+msgstr "circa un anno fa"
+
+#: I18n/RelativeTimeFormatter.php:165
+msgid "in about a second"
+msgstr "in circa un secondo"
+
+#: I18n/RelativeTimeFormatter.php:166
+msgid "in about a minute"
+msgstr "in circa un minuto"
+
+#: I18n/RelativeTimeFormatter.php:167
+msgid "in about an hour"
+msgstr "in circa un ora"
+
+#: I18n/RelativeTimeFormatter.php:168;339
+msgid "in about a day"
+msgstr "in circa un giorno"
+
+#: I18n/RelativeTimeFormatter.php:169;340
+msgid "in about a week"
+msgstr "in circa una settimana"
+
+#: I18n/RelativeTimeFormatter.php:170;342
+msgid "in about a year"
+msgstr "in circa un anno"
+
+#: I18n/RelativeTimeFormatter.php:298
+msgid "today"
+msgstr "oggi"
+
+#: I18n/RelativeTimeFormatter.php:328
+msgid "about a month ago"
+msgstr "circa un mese fa"
+
+#: I18n/RelativeTimeFormatter.php:341
+msgid "in about a month"
+msgstr "in circa un mese"
+
+#: I18n/RelativeTimeFormatter.php:362
+msgid "%s ago"
+msgstr "%s fa"
+
+#: I18n/RelativeTimeFormatter.php:363
+msgid "on %s"
+msgstr "su %s"
+
+#: I18n/RelativeTimeFormatter.php:47;125;310
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} anno"
+msgstr[1] "{0} anni"
+
+#: I18n/RelativeTimeFormatter.php:51;128;313
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} mese"
+msgstr[1] "{0} mesi"
+
+#: I18n/RelativeTimeFormatter.php:57;131;316
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} settimana"
+msgstr[1] "{0} settimane"
+
+#: I18n/RelativeTimeFormatter.php:59;134;319
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} giorno"
+msgstr[1] "{0} giorni"
+
+#: I18n/RelativeTimeFormatter.php:64;137
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} ora"
+msgstr[1] "{0} ore"
+
+#: I18n/RelativeTimeFormatter.php:68;140
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} minuto"
+msgstr[1] "{0} minuti"
+
+#: I18n/RelativeTimeFormatter.php:72;143
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} secondo"
+msgstr[1] "{0} secondi"
+
+#: Network/Response.php:1417
+msgid "The requested file was not found"
+msgstr "Il file richiesto non è stato trovato"
+
+#: ORM/RulesChecker.php:49
+msgid "This value is already in use"
+msgstr "Questo valore è già in uso"
+
+#: ORM/RulesChecker.php:83
+msgid "This value does not exist"
+msgstr "Questo valore non esiste"
+
+#: Utility/Text.php:724
+msgid "and"
+msgstr "e"
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr "Questo campo è richiesto"
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr "Questo campo non può essere vuoto"
+
+#: Validation/Validator.php:1406
+msgid "The provided value is invalid"
+msgstr "Il valore fornito è non valido"
+
+#: View/Helper/FormHelper.php:927
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: View/Helper/FormHelper.php:930
+msgid "Edit %s"
+msgstr "Modica %s"
+
+#: View/Helper/FormHelper.php:1731
+msgid "Submit"
+msgstr "Invio"
+
+#: View/Helper/HtmlHelper.php:770
+msgid "Home"
+msgstr "Home"
+
+#: View/Widget/DateTimeWidget.php:530
+msgid "January"
+msgstr "Gennaio"
+
+#: View/Widget/DateTimeWidget.php:531
+msgid "February"
+msgstr "Febbraio"
+
+#: View/Widget/DateTimeWidget.php:532
+msgid "March"
+msgstr "Marzo"
+
+#: View/Widget/DateTimeWidget.php:533
+msgid "April"
+msgstr "Aprile"
+
+#: View/Widget/DateTimeWidget.php:534
+msgid "May"
+msgstr "Maggio "
+
+#: View/Widget/DateTimeWidget.php:535
+msgid "June"
+msgstr "Giugno"
+
+#: View/Widget/DateTimeWidget.php:536
+msgid "July"
+msgstr "Luglio"
+
+#: View/Widget/DateTimeWidget.php:537
+msgid "August"
+msgstr "Agosto"
+
+#: View/Widget/DateTimeWidget.php:538
+msgid "September"
+msgstr "Settembre"
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "October"
+msgstr "Ottobre"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "November"
+msgstr "Novembre"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "December"
+msgstr "Dicembre"
