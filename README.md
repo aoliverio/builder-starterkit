@@ -4,8 +4,9 @@
 [![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
 A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
-
 The framework source code can be found here: [cakephp/cakephp](https://github.com/aoliverio/builder-starterkit).
+
+# This package is under construction, the composer does not work...
 
 ## Installation
 
